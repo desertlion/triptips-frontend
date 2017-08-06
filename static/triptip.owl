@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.tripassist.com/public_facilities#"
+     xml:base="http://www.tripassist.com/public_facilities"
+     xmlns:public_facilities="http://www.tripassist.com/public_facilities#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.tripassist.com/public_facilities"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tripassist.com/public_facilities#address"/>
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tripassist.com/public_facilities#description"/>
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#lat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tripassist.com/public_facilities#lat"/>
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#lng -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tripassist.com/public_facilities#lng"/>
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tripassist.com/public_facilities#name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#Hotel -->
+
+    <owl:Class rdf:about="http://www.tripassist.com/public_facilities#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.tripassist.com/public_facilities#Places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#Places -->
+
+    <owl:Class rdf:about="http://www.tripassist.com/public_facilities#Places"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#AryaDuta -->
+
+    <owl:NamedIndividual rdf:about="http://www.tripassist.com/public_facilities#AryaDuta">
+        <rdf:type rdf:resource="http://www.tripassist.com/public_facilities#Hotel"/>
+        <address>Jl. POM IX, Kompleks Palembang Square Mall, Lorok Pakjo, Ilir Bar. I, Kota Palembang, Sumatera Selatan 30137</address>
+        <address>Set in a vibrant shopping area, this elegant hotel is a 6-minute walk from Bumi Sriwijaya Stadium and 3.1 km from the Masjid Agung mosque.
+The modern rooms offer free Wi-Fi, flat-screens, safes and minibars, as well as tea and coffeemakers. Upgraded rooms add extras such as DVD players and club lounge access, while suites add living rooms; some include whirlpool tubs and kitchenettes. Children age 12 and under stay without charge. Room service is available.
+A breakfast buffet is free, and parking is included. There are 2 restaurants and 4 bars. Other amenities include a business center and a spa area with an outdoor pool and a fitness room.</address>
+        <lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.9609533</lat>
+        <name>Aryaduta Palembang</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#Aston -->
+
+    <owl:NamedIndividual rdf:about="http://www.tripassist.com/public_facilities#Aston">
+        <rdf:type rdf:resource="http://www.tripassist.com/public_facilities#Hotel"/>
+        <address>Jln Jendral Basuki Rahmat No.189, Talang Aman, Kemuning, Palembang City, South Sumatra 30126</address>
+        <description>This modern hotel is 4.5 km from Palembang Golf Club, 6 km from Ampera Bridge and 7 km from Bumi Sriwijaya Stadium.
+Contemporary, refined rooms feature free Wi-Fi, flat-screen TVs with premium channels, minibars, safes, and tea and coffeemakers. Room service is available. Suites add living rooms, and upgraded suites add complimentary snacks.
+A free breakfast buffet and parking are available. There&apos;s also a restaurant.</description>
+        <lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.9575246</lat>
+        <lng rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">104.7095439</lng>
+        <name>Aston Palembang Hotel &amp; Conference Center Aston International</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tripassist.com/public_facilities#Fave -->
+
+    <owl:NamedIndividual rdf:about="http://www.tripassist.com/public_facilities#Fave">
+        <rdf:type rdf:resource="http://www.tripassist.com/public_facilities#Hotel"/>
+        <address>Jl. Basuki Rahmat No.1681, Pahlawan, Kemuning, Kota Palembang, Sumatera Selatan 30128</address>
+        <description>On a street with shops and restaurants, this down-to-earth hotel is 5 km from the PTC Mall, 6 km from the Ampera Bridge and 7 km from Benteng Kuto Besak palace.
+The bright, relaxed rooms come with complimentary Wi-Fi and flat-screen TVs. Suites add kitchenettes. Room service is available.
+A free hot breakfast buffet is served in an informal cafe. Other amenities include event space.</description>
+        <lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2.9609533</lat>
+        <lng rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">104.6910045</lng>
+        <name>Favehotel Palembang</name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
